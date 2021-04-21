@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Forms</title>
+</head>
+<body>
+<form action="http://www.google.com" method="post">
+	<label>First Name:</label>
+	<input type="text" name="First Name" size="50">
+	<br>
+	<label>Profile Picture:</label>
+	<input type="file" name="file">
+	<br>
+	<label>Last Name:</label>
+	<input type="text" name="Last Name">
+	<br>
+	<label>Age:</label>
+	<input type="number" name="age">
+	<br>
+	<label>Email:</label>
+	<input type="Email" name="Email">
+	<br>
+	<label>Gender:</label> <br>
+	<input type="Radio" name="Gender" value="male"><label>Male</label> <br>
+	<input type="Radio" name="Gender" value="female"><label>Female</label> <br>
+	<input type="Radio" name="Gender" value="other"><label>Other</label>
+	<br>
+	<label>preferred courses</label> <br>
+	<input type="checkbox" name="course" value="Java"><label>Java</label> <br>
+	<input type="checkbox" name="Course" value="Java"><label>Python</label> <br>
+	<input type="checkbox" name="Course" value="Java"><label>Ruby</label> <br>
+	<input type="checkbox" name="Course" value="Java"><label>Php</label> <br>
+	<input type="checkbox" name="Course" value="Java"><label>C-Programming</label>
+	<br>
+
+	<label>Academic Qualification</label>
+	<select name="Academic">
+		<option value="SLC">S.L.C</option>
+		<option value="Plus 2">+2</option>
+		<option value="graduate">Bachlor Graduate</option>
+		<option value="post graduate">Post Graduate</option>
+	</select>
+	<br>
+	<label>Date Of Birth: </label>
+	<input type="Date" name="Submit">
+	<br>
+	<label>Colour:</label>
+	<input type="Color" name="color">
+	<br>
+	<label for="username">Username:</label><br>
+  	<input type="text" name="username"><br>
+  	<label for="pwd">Password:</label><br>
+  	<input type="password" name="pwd"><br>
+	<br> <br>
+ 	<input type="button" value="button" onclick="window.prompt('You Clicked A button')">
+ 	<br> <br>
+ 	<input type="button" value="button" onclick="window.alert('You Clicked A button')">
+	<input type="button" value="button" onclick="window.alert('You Clicked A button')" disabled>
+ 	<br> 
+ 	<br>
+ 	<label>Salary:</label>
+	<input type="number" name="salary" min="1" max="10">
+	<br>
+	<label>Contact Number:</label>
+	<input type="text" name="contactnumber" minlength="7" maxlength="9" required>
+	<br>
+	<label>Country</label>
+	<input type="text" name="Nepal" value="Nepal" readonly>
+	
+
+
+
+
+
+	<br><br>
+	<input type="submit" name="submit">
+	<input type="reset">
+</form>
+</body>
+</html>

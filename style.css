@@ -1,0 +1,19 @@
+#Tiger{
+	width: 50%;
+	border: 20px outset grey;
+	box-sizing: border-box;
+	box-shadow:	20px 20px 10px #333333;
+}
+#Watch
+{
+	width: 50%;
+	border: 20px outset grey;
+	box-sizing: border-box;
+	box-shadow:	20px 20px 10px #9999dd;
+}
+.demo{
+	width: 70%;
+	margin: 50px;
+	transform: skewX(-10deg);
+	height: 50%;
+}

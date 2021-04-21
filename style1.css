@@ -1,0 +1,6 @@
+img{
+	width: 50%;
+	border: 20px outset grey;
+	box-sizing: border-box;
+	box-shadow:	10px 10px 10px;
+}

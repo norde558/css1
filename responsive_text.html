@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style type="text/css">
+	*{
+		box-sizing: border-box;
+	}
+
+	nav{
+		padding: 25px;
+		font-size: 56px;
+		width:	25%;
+		float: left;
+		background-color: #f1f1f1;
+	}
+	section{
+		padding: 25px;
+		font-size: 56px;
+		width:	50%;
+		float: left;
+		background-color: #2196F3;
+	}
+	article{
+		padding: 25px;
+		font-size: 56px;
+		width:	25%;
+		float: left;
+		background-color: #4CAF50;
+	}
+@media	screen and (max-width:800px){
+	nav, section, article{
+		width: 100%;
+	}
+}
+</style>
+</head>
+<body>
+<h1 style="font-size: 10vw;">Header</h1>
+<nav>Navigation</nav>
+<section>
+	Section
+</section>
+<article>article</article>
+
+<picture>
+  <source srcset="images/watch.png" media="(max-width: 800px)">
+  <source srcset="images/tiger.jpeg" media="(max-width: 1200px)">
+  <source srcset="images/tree.jpg">
+  <img src="images/watch.png" alt="pkr3" style="width:100%;">
+</picture>
+</body>
+</html>

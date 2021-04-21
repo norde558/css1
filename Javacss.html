@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		.class1{
+			color:blue;
+			font-size: 36px;
+		}
+	</style>
+	<script type="text/javascript">
+		function myfunction(){
+			document.getElementById("demo").innerHTML=Date();
+			document.getElementById("demo").className='class1';
+
+		}
+	</script>
+</head>
+<body>
+<p id="demo">This Is a Paragraph.</p>
+<button onclick="document.getElementById('demo').className='class1'">Click Me</button>
+<button onclick="myfunction()">Test</button>
+</body>
+</html>

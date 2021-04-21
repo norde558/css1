@@ -1,0 +1,18 @@
+h1
+{
+	background-color: grey;
+	color:white;
+	font-size: 76px;
+}
+p{
+	color: black;
+	font-size: 34px;
+	font-family: fantasy;
+	
+	<!-- background-image: url("images/pkr3.jpg"); -->
+	border: 5px groove green;
+	padding: 20px
+	text-align:justify;
+	margin:50px;
+	outline:20px ;
+}

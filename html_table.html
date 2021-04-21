@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>tables</title>
+	<style type="text/css">
+		table,th,td{
+			border-width: 2px;
+			border-color: grey;
+			border-style:none;
+			padding: 10px;
+		}
+		table
+		{
+			border-collapse: collapse;
+			margin: auto;
+			width: 80%
+		}
+		td
+		{
+			text-align: center;
+		}
+		th
+		{
+			background-color: #FF0000;
+		}
+		tr:nth-child(odd)
+		{
+			background-color: #002EF1;
+
+		}
+		tr:nth-child(even)
+		{
+			background-color: #00F173;
+			
+		}
+		th:first-child
+		{
+			border-radius: 30px 0 0 0; 
+		}
+		th:last-child
+		{
+			border-radius: 0 30px 0 0;
+		}
+		tr:last-child td:first-child{
+			border-radius: 0 0 0 30px;
+		}
+		tr:last-child td:last-child{
+			border-radius: 0 0 30px 0;
+		}
+	</style>
+</head>
+<body>
+<table>
+	<tr>
+		<th>Sn.</th>
+		<th>Student's Name</th>
+		<th>Address</th>
+		<th>Email Id</th>
+		<th>Contact Number</th>
+	</tr>
+	<tr>
+		<td>1</td>
+		<td>Shisir Basnet</td>
+		<td>Balaju</td>
+		<td>ccrshisir5@gmail.com</td>
+		<td>9849915593</td>
+	</tr>
+	<tr>
+		<td>2</td>
+		<td>Taposh Regmi</td>
+		<td>Maitidevi</td>
+		<td>taposh@gmail.com</td>
+		<td>9851275672</td>
+	</tr>
+	<tr>
+		<td>3</td>
+		<td>Ritesh Manandhar</td>
+		<td>Swoyambhu</td>
+		<td>ritesh@gmail.com</td>
+		<td>9845678765</td>
+	</tr>
+	<tr>
+		<td>4</td>
+		<td colspan="2">Shisir Basnet, Balaju</td>
+		<td>ccrshisir5@gmail.com</td>
+		<td rowspan="2">9849915593</td>
+	</tr>
+	<tr>
+		<td>5</td>
+		<td>Taposh Regmi</td>
+		<td>Maitidevi</td>
+		<td>taposh@gmail.com</td>
+	</tr>
+	<tr>
+		<td>6</td>
+		<td>Ritesh Manandhar</td>
+		<td>Swoyambhu</td>
+		<td>ritesh@gmail.com</td>
+		<td>9845678765</td>
+	</tr>
+	<tr>
+		<td>7</td>
+		<td>Shisir Basnet</td>
+		<td>Balaju</td>
+		<td>ccrshisir5@gmail.com</td>
+		<td>9849915593</td>
+	</tr>
+	<tr>
+		<td>8</td>
+		<td>Taposh Regmi</td>
+		<td>Maitidevi</td>
+		<td>taposh@gmail.com</td>
+		<td>9851275672</td>
+	</tr>
+	<tr>
+		<td>9</td>
+		<td>Ritesh Manandhar</td>
+		<td>Swoyambhu</td>
+		<td>ritesh@gmail.com</td>
+		<td>9845678765</td>
+	</tr>
+	<tr>
+		<td>10</td>
+		<td>Shisir Basnet</td>
+		<td>Balaju</td>
+		<td>ccrshisir5@gmail.com</td>
+		<td>9849915593</td>
+	</tr>
+	<tr>
+		<td>11</td>
+		<td>Taposh Regmi</td>
+		<td>Maitidevi</td>
+		<td>taposh@gmail.com</td>
+		<td>9851275672</td>
+	</tr>
+	<tr>
+		<td>12</td>
+		<td>Ritesh Manandhar</td>
+		<td>Swoyambhu</td>
+		<td>ritesh@gmail.com</td>
+		<td>9845678765</td>
+	</tr>
+</table>
+</body>
+</html>

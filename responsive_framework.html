@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style type="text/css">
+		 *{
+		 	box-sizing: border-box;
+		 }
+		header{
+			background-color: #3385ff;
+			color: white;
+			font-size: 5vw;
+			text-align: center;
+			padding: 25px;
+			height: 18vh;
+		}
+		section{
+			height: 75vh;
+		}
+		nav{
+			background-color: #0066ff;
+			width: 25%;
+			float: left;
+			height: inherit;
+			padding: 20px;
+		}
+
+		a{
+			background-color: #dddddd;
+		}
+
+		article{
+			background-color: #4d79ff;
+			width: 55%;
+			float: left;
+			height: inherit;
+			padding: 20px;
+			overflow: auto;
+		}
+		#rightbar{
+			background-color: #8080ff;
+			width: 20%;
+			height: inherit;
+			float: left;
+		}
+		footer{
+			background-color: #00004d;
+			color: #cccccc;
+			height: 7vh;
+		}
+		@media screen and (max-width:800px){
+			nav, article, #rightbar{ width: 100%; height: auto;}
+		}
+	</style>
+</head>
+<body>
+<header>Cities of Nepal</header>
+<section>
+	<nav><ul>
+		<a href="#"><li>Home</li></a>
+		<a href="#"><li>Products</li></a>
+		<a href="#"><li>Gallery</li></a>
+		<a href=""><li>Contact</li></a>	
+		<a href="#"><li>About Us</li></a>
+	</ul></nav>
+	<article>
+		<h1>Pokhara</h1>
+		<p>	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.	</p>
+	</article>
+	<div id="rightbar">	Adv comes here</div>
+</section>
+<footer>	footer comes here</footer>
+</body>
+</html>
